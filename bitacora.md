@@ -62,5 +62,52 @@ Abstraccion: analizamos lo mas relevante del algoritmo, que es saber si la bicic
 Algoritmos: seguir los pasos indicados para cumplir correctamente el algoritmo, el cliente llega al local, escoge una bicicleta, pregunta si esta disponible, llena el formulario, realiza el pago, recibe la bicicleta, el casco y el candado.
 
 
+Columnas:
+
+|Datos de entrada|                 |Datos de proceso|               |Datos de salida|
+10000 por hora (real)              identificar cliente               cliente
+cliente (caracter)                 10000 * hora                      valor_pagar     
+horas (real)                                                      
 
 
+Pruebas:
+
+Prueba 1:
+Datos de entrada: 
+1
+
+Resultado esperado calculado a mano:
+10000 * 1 = 10000
+
+Resultado obtenido:
+10000
+
+
+Prueba 2:
+Datos de entrada: 
+3
+
+Resultado esperado calculado a mano:
+10000 * 3 = 30000
+
+Resultado obtenido:
+30000
+
+
+Prueba 3:
+Datos de entrada: 
+8
+
+Resultado esperado calculado a mano:
+10000 * 8 = 80000
+
+Resultado obtenido:
+80000
+
+Resultado de escribir 0 o un numero negativo:
+
+Resultado con 0:
+El programa me arroja un mensaje indicando que mi alquiler por 0 horas cuesta 0
+
+Resultado con un numero negativo:
+Ingrese el numero -4, el programa me arroja un mensaje indicando que mi alquiler por -4 horas cuesta -40000
