@@ -111,3 +111,23 @@ El programa me arroja un mensaje indicando que mi alquiler por 0 horas cuesta 0
 
 Resultado con un numero negativo:
 Ingrese el numero -4, el programa me arroja un mensaje indicando que mi alquiler por -4 horas cuesta -40000
+
+Prueba de escritorio en sabores de barrio:
+
+Instruccion:
+
+leer recorrido = rio y parques                                          
+leer precio_persona = 45000                                       
+leer cantidad_personas = 4
+valort <- (precio_persona * cantidad_personas) =   180000
+anticipo <- ((precio_persona * 30/100) * cantidad_personas) = 54000
+saldo <- ((precio_persona * cantidad_personas) - anticipo) =  126000
+
+Al ejecutar el algoritmo, pude comprobar que los resultados que me da el programa coinciden con la prueba de escritorio que realice.
+
+
+Revision del diagrama:
+
+Simbolo de inicio y fin: ovalo 
+Simbolo de entrada y salida: paralelogramo
+Simbolo de proceso: rectangulo
