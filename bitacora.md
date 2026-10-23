@@ -121,7 +121,7 @@ leer precio_persona = 45000
 leer cantidad_personas = 4
 valort <- (precio_persona * cantidad_personas) =   180000
 anticipo <- ((precio_persona * 30/100) * cantidad_personas) = 54000
-saldo <- ((precio_persona * cantidad_personas) - anticipo) =  126000
+saldo <- (valort - anticipo) =  126000
 
 Al ejecutar el algoritmo, pude comprobar que los resultados que me da el programa coinciden con la prueba de escritorio que realice.
 
