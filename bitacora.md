@@ -131,3 +131,17 @@ Revision del diagrama:
 Simbolo de inicio y fin: ovalo 
 Simbolo de entrada y salida: paralelogramo
 Simbolo de proceso: rectangulo
+
+
+Descomposicion del problema:
+
+Datos de entrada:
+cant_bicicletas (entero)
+precio_bicicleta (real)
+personas (entero)
+
+calculos:
+subtotal = (bicicletas * tarifa por bicicleta) + recorrido
+aporte = subtotal * 10 %
+total = subtotal + aporte
+total_p = total ÷ persona
