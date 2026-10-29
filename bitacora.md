@@ -136,12 +136,69 @@ Simbolo de proceso: rectangulo
 Descomposicion del problema:
 
 Datos de entrada:
-cant_bicicletas (entero)
-precio_bicicleta (real)
+bicicletas (entero)
+precio (real)
 personas (entero)
+horas (real) 
+alquiler (real) 
+recorrido (real)  
+subtotal (real)  
+aporte (real) 
+total (real)  
+valorP (real) 
 
 calculos:
-subtotal = (bicicletas * tarifa por bicicleta) + recorrido
-aporte = subtotal * 10 %
-total = subtotal + aporte
-total_p = total ÷ persona
+alquiler <- (bicicletas * horas * precio);
+recorrido <- (personas * precio);
+subtotal <- (alquiler + recorrido);
+aporte <- (subtotal * 10 / 100);
+total <- (subtotal + aporte);
+valorP <-(total / personas);
+valorP <- redon(valorP);
+
+
+use redon, 
+
+Prueba 1:
+Datos que ingrese:
+3 personas
+3 bicicletas
+2 horas de recorrido
+Rio y parques: 45000 del recorrdio por cada persona
+
+Resultado:
+El valor del alquiler es: 270000
+El valor del recorrido es: 135000
+El subtotal es: 405000
+El valor del aporte voluntario del 10 % es: 40500
+El valor total es: 445500
+El valor por persona redondeado hacia arriba a la centena es: 148500
+
+Prueba 2:
+Datos que ingrese:
+4 personas
+3 bicicletas
+3 horas
+Sabores de barrio: 60000 del recorrdio por cada persona
+
+Resultados:
+El valor del alquiler es: 540000
+El valor del recorrido es: 240000
+El subtotal es: 780000
+El valor del aporte voluntario del 10 % es: 78000
+El valor total es: 858000
+El valor por persona redondeado hacia arriba a la centena es: 214500
+
+Prueba 3:
+5 personas
+5 bicicletas
+7 horas
+Reto las palmas: 85000 del recorrido por persona
+
+Resultado:
+El valor del alquiler es: 2975000
+El valor del recorrido es: 425000
+El subtotal es: 3400000
+El valor del aporte voluntario del 10 % es: 340000
+El valor total es: 3740000
+El valor por persona redondeado hacia arriba a la centena es: 748000
